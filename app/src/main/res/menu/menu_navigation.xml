@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/buscar"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/buscar"
+        />
+    <item
+        android:id="@+id/canciones"
+        android:enabled="true"
+        android:icon="@drawable/ic_songs"
+        android:title="@string/canciones"
+        />
+    <item
+        android:id="@+id/artist"
+        android:enabled="true"
+        android:icon="@drawable/ic_artist"
+        android:title="@string/artistas"
+        />
+
+    <item
+        android:id="@+id/albums"
+        android:enabled="true"
+        android:icon="@drawable/ic_album"
+        android:title="@string/albumes"
+        />
+</menu>

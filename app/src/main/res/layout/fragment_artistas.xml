@@ -1,0 +1,144 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jumarogu.bottomnavigationview.fragments.ArtistasFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/bottom_nav_height"
+            android:paddingStart="20dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle"
+                android:text="Artist 1"
+                android:clickable="true"
+                android:paddingBottom="20dp"
+                android:paddingTop="60dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle2"
+                android:paddingBottom="20dp"
+                android:text="Artist 2"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle3"
+                android:paddingBottom="20dp"
+                android:text="Artist 3"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle4"
+                android:paddingBottom="20dp"
+                android:text="Artist 4"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle5"
+                android:paddingBottom="20dp"
+                android:text="Artist 5"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle6"
+                android:paddingBottom="20dp"
+                android:text="Artist 6"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle7"
+                android:paddingBottom="20dp"
+                android:text="Artist 7"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle8"
+                android:paddingBottom="20dp"
+                android:text="Artist 8"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle9"
+                android:paddingBottom="20dp"
+                android:text="Artist 9"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle10"
+                android:paddingBottom="20dp"
+                android:text="Artist 10"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle11"
+                android:paddingBottom="20dp"
+                android:text="Artist 11"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle12"
+                android:paddingBottom="20dp"
+                android:text="Artist 12"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/songTitle13"
+                android:paddingBottom="20dp"
+                android:text="Artist 13"
+                android:clickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
